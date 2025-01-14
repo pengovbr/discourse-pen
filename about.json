@@ -7,16 +7,16 @@
    },
    "color_schemes": {
        "color scheme name": {
-          "primary": "000000",
+          "primary": "ffffff",
           "secondary": "004591",
-          "tertiary": "000000",
+          "tertiary": "08af0b",
           "quaternary": "000000",
-          "header_background": "000000",
-          "header_primary": "000000",
-          "highlight": "000000",
-          "danger": "000000",
-          "success": "000000",
-          "love": "000000"
+          "header_background": "6d6464",
+          "header_primary": "ffffff",
+          "highlight": "00059e",
+          "danger": "ff0000",
+          "success": "00db1a",
+          "love": "c618c9"
         }
     }
 }
