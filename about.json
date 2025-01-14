@@ -6,7 +6,7 @@
         "asset-variable": "assets/background.svg"
    },
    "color_schemes": {
-       "color scheme name": {
+       "Default": {
           "primary": "ffffff",
           "secondary": "004591",
           "tertiary": "08af0b",
