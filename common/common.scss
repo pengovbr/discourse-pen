@@ -4,10 +4,10 @@
   max-width: unset;
   color: var(--secondary);
   h1 {
-    font-size: 4em;
+    font-size: 6em;
   }
   p {
-    font-size: 1.25em !important;
+    font-size: 1.45em !important;
     font-weight: bold;
     margin-bottom: 1em;
   }
@@ -74,6 +74,12 @@
 }
 
 // Main customizations
+.wrap {
+  max-width: 1280px !important;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .alert {
   margin: 1em 0;
 }
@@ -138,7 +144,7 @@
 }
 
 #site-text-logo {
-  color: var(--primary);
+  color: var(--tertiary);
 }
 
 .mobile-view {
@@ -191,7 +197,7 @@ div.ac-wrap {
 }
 
 .d-header-icons .icon img.avatar {
-  border-radius: 0.25em;
+  border-radius: 25px;
 }
 
 .menu-panel.drop-down {
@@ -252,38 +258,21 @@ div.ac-wrap {
 
 html {
   body:not(.no-ember) {
-    background: linear-gradient(
-        0deg,
-        rgba(var(--primary-rgb), 0.075) 0%,
-        rgba(var(--primary-rgb), 0.075) 100%
-      ),
-      linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
+    background: rgba(var(--secondary-rgb), 0.9); /* 0.9 deixa 10% mais escuro */
   }
   .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
-  }
-  body.no-ember .background-container {
-    display: none;
+    background: rgba(var(--secondary-rgb), 0.9);
+    clip-path: none; /* Remove a forma se não quiser recorte */
   }
 }
 
 html body #main-outlet {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-bottom: 45px;
   background: var(--secondary);
-  border-radius: 1em;
+  border-radius: 0.5em;
   padding: 3em 3em 5%;
-  max-width: 1150px;
+  max-width: 1280px;
   .archetype-regular & {
     min-height: 500px;
   }
@@ -522,7 +511,7 @@ html body #main-outlet {
 
 // published page additions
 .published-page-content-wrapper {
-  max-width: 1000px;
+  max-width: 1400px;
   margin-top: 30px;
   margin-bottom: 50px;
   background: var(--secondary);
@@ -588,4 +577,8 @@ html body #main-outlet {
 
 .ember-text-field {
   color: var(--primary);
+}
+
+.powered-by-discourse {
+  display: none !important;
 }

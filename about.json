@@ -1,22 +1,43 @@
 {
-  "name": "ParticiPEN",
-  "about_url": "Theme about url",
+  "name": "ParticiPEN NEW",
+  "component": false,
   "license_url": "https://github.com/pengovbr/discourse-pen/blob/main/LICENSE",
-   "assets": {
-        "asset-variable": "assets/background.svg"
-   },
-   "color_schemes": {
-       "Default": {
-          "primary": "000000",
-          "secondary": "ffffff",
-          "tertiary": "004591",
-          "quaternary": "111111",
-          "header_background": "2b2727",
-          "header_primary": "ffffff",
-          "highlight": "00059e",
-          "danger": "ff0000",
-          "success": "00db1a",
-          "love": "c618c9"
-        }
+  "about_url": "Theme about url",
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
+  "color_schemes": {
+    "Gov.BR": {
+      "primary": "222",
+      "secondary": "fff",
+      "tertiary": "1351B4",
+      "quaternary": "e45735",
+      "header_background": "fff",
+      "header_primary": "333",
+      "highlight": "ffff4d",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "selected": "d1f0ff",
+      "hover": "FAFAFA"
+    },
+    "Default": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "004591",
+      "quaternary": "111111",
+      "header_background": "2b2727",
+      "header_primary": "ffffff",
+      "highlight": "00059e",
+      "selected": "d1f0ff",
+      "hover": "f2f2f2",
+      "danger": "ff0000",
+      "success": "00db1a",
+      "love": "c618c9"
     }
+  },
+  "modifiers": {},
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
